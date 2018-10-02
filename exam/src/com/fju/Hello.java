@@ -9,9 +9,12 @@ public class Hello {
 		String lastName = "Lin";
 		int hour = 10, minute = 58;
 		System.out.println(age);
-		System.out.println(firstName);
-		System.out.println(" ");
+		System.out.print(firstName);
+		System.out.print(" ");
 		System.out.println(lastName);
+		System.out.print(hour);
+		System.out.print(":");
+		System.out.println(minute);
 	}
 
 }
